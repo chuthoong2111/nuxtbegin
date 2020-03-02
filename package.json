@@ -1,0 +1,54 @@
+{
+  "name": "tttt",
+  "version": "1.0.0",
+  "description": "My shining Nuxt.js project",
+  "author": "chuthoong2111",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "ava",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "precommit": "npm run lint",
+  "ava": {
+    "files": [
+      "test/**/*"
+    ]
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 9"
+  ],
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "autoprefixer": "^9.7.4",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.5.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "nuxt-lazy-load": "^1.1.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-hexrgba": "^2.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-responsive-type": "^1.0.0",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-slick-carousel": "^1.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
